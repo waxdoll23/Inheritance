@@ -1,3 +1,4 @@
+import Humans.Human;
 import rotateArray.RotateArray;
 
 import java.util.ArrayList;
@@ -7,7 +8,7 @@ import java.util.ArrayList;
  */
 public class Main {
     public static void main(String [] args){
-
+        Human jennifer = new Human("Jennifer", 26 ,true,  "Student",  "Wilmington");
         RotateArray rotate = new RotateArray();
 
         ArrayList<Integer> numbers = new ArrayList<>();
@@ -16,6 +17,8 @@ public class Main {
         numbers.add(2);
         numbers.add(3);
 
-        System.out.print(rotate.rotate(numbers,2));
+        System.out.println(rotate.rotate(numbers,2));
+        System.out.println(jennifer);
+
     }
 }
