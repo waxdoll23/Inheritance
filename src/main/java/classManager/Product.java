@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class Product extends ArrayList {
     String id;
     int price;
-    int amount;
+    int quanity;
 
     public  Product(){
 
@@ -17,7 +17,7 @@ public class Product extends ArrayList {
     public Product(String id, int price, int amount){
         this.id = id;
         this.price = price;
-        this. amount = amount;
+        this.quanity = amount;
     }
 
 
@@ -38,11 +38,11 @@ public class Product extends ArrayList {
     }
 
     public void setAmount(){
-      this.amount = amount;
+      this.quanity = quanity;
     }
 
-    public int getAmount(){
-        return amount;
+    public int getQuanity(){
+        return quanity;
     }
 
 }

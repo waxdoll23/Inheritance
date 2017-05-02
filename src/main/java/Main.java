@@ -37,6 +37,6 @@ public class Main {
         Product item = new Product("Phone",300, 6);
         Product book = new Product("Book", 10, 8);
 
-        inventoryManager.addItemToCount(book.getAmount(), book.getPrice());
+        inventoryManager.calculateValueOfProduct(book.getQuanity(), book.getPrice());
     }
 }

@@ -9,8 +9,8 @@ public class InventoryManager extends Product {
     ArrayList<Double> totalValue = new ArrayList();
 
 
-    public double addItemToCount(double amount, double price) {
-        double valueOfSingleType = amount * price;
+    public double calculateValueOfProduct(double quanity, double price) {
+        double valueOfSingleType = quanity * price;
         return valueOfSingleType;
     }
 

@@ -16,7 +16,7 @@ public class ClassMangrerTest {
         InventoryManager inventoryMangerTest = new InventoryManager();
 
         double expected = 3;
-        double actual = inventoryMangerTest.addItemToCount(1,3);
+        double actual = inventoryMangerTest.calculateValueOfProduct(1,3);
 
         assertEquals("Testing if it adds one to the count", expected , actual, .05);
     }
