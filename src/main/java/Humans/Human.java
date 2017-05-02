@@ -29,6 +29,7 @@ public class Human {
     }
 
     public int getAge() {
+
         return this.age;
     }
 
@@ -38,6 +39,7 @@ public class Human {
     }
 
     public boolean getisFemale(){
+
         return this.isFeamle;
     }
 
@@ -47,6 +49,7 @@ public class Human {
     }
 
     public String getOccupation(){
+
         return this.occupation;
     }
 

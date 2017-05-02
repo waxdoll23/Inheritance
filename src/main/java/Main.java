@@ -1,5 +1,7 @@
 import Humans.Human;
 import Humans.SuperHuman;
+import classManager.InventoryManager;
+import classManager.Product;
 import rotateArray.RotateArray;
 
 import java.util.ArrayList;
@@ -10,6 +12,7 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String [] args){
         RotateArray rotateArray = new RotateArray();
+        InventoryManager inventoryManager = new InventoryManager();
 
         ArrayList rotateThis = new ArrayList();
 
@@ -30,5 +33,10 @@ public class Main {
         System.out.println(jennifer);
 
         System.out.println(heroIdenty);
+
+        Product item = new Product("Phone",300, 6);
+        Product book = new Product("Book", 10, 8);
+
+        inventoryManager.addItemToCount(book.getAmount(), book.getPrice());
     }
 }
