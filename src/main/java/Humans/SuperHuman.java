@@ -17,26 +17,31 @@ public class SuperHuman extends Human {
     }
 
     public boolean getisGood(){
+
         return this.isGood;
     }
 
     public void setisGood(){
+
         this.isGood = isGood;
     }
 
-    public String getHeroName(){
+    public String getHeroName() {
         return this.heroName;
     }
 
     public void setHeroName(){
+
         this.heroName = heroName;
     }
 
     public String getSuperAbility(){
+
         return this.superAbility;
     }
 
     public void setSuperAbility(){
+
         this.superAbility = superAbility;
     }
 

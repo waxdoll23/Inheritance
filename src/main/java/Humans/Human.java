@@ -19,18 +19,21 @@ public class Human {
     }
 
     public String getName(){
+
         return this.name;
     }
 
     public void setName(){
+
         this.name = name;
     }
 
-    public int getAge(){
+    public int getAge() {
         return this.age;
     }
 
     public void setAge(){
+
         this.age = age;
     }
 
@@ -39,6 +42,7 @@ public class Human {
     }
 
     public void setisFeamle(){
+
         this.isFeamle = isFeamle;
     }
 
@@ -47,14 +51,17 @@ public class Human {
     }
 
     public void setOccupation(){
+
         this.occupation = occupation;
     }
 
     public String getAddress(){
+
         return this.address;
     }
 
     public void setAddress(){
+
         this.address = address;
     }
 

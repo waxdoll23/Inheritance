@@ -9,20 +9,26 @@ import java.util.ArrayList;
  */
 public class Main {
     public static void main(String [] args){
+        RotateArray rotateArray = new RotateArray();
+
+        ArrayList rotateThis = new ArrayList();
+
+        {
+            for(int i =1; i < 7; i++){
+                rotateThis.add(i);
+            }
+            System.out.println("This is the original array " + rotateThis);
+        }
+
+        rotateArray.rotateAmount(rotateThis,3);
+
         Human jennifer = new Human("Jennifer", 26 ,true,  "Student",  "Wilmington");
-        RotateArray rotate = new RotateArray();
+
         SuperHuman heroIdenty = new SuperHuman("Jennifer", 26, true, "Student", "Wilmington", true, "Tuesday", "Shrinking");
 
-        ArrayList<Integer> numbers = new ArrayList<>();
 
-        numbers.add(1);
-        numbers.add(2);
-        numbers.add(3);
-
-        System.out.println(rotate.rotate(numbers,2));
         System.out.println(jennifer);
+
         System.out.println(heroIdenty);
-
-
     }
 }
