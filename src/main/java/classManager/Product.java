@@ -1,9 +1,11 @@
 package classManager;
 
+import java.util.ArrayList;
+
 /**
  * Created by jennifermcginty on 5/2/17.
  */
-public class Product {
+public class Product extends ArrayList {
     String id;
     int price;
     int amount;
