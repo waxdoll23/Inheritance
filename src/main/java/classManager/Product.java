@@ -5,19 +5,19 @@ import java.util.ArrayList;
 /**
  * Created by jennifermcginty on 5/2/17.
  */
-public class Product extends ArrayList {
+public class Product {
     String id;
     int price;
     int quanity;
 
-    public  Product(){
+    public  Product(int price, int quanity){
 
     }
 
-    public Product(String id, int price, int amount){
+    public Product(String id, int price, int quanity){
         this.id = id;
         this.price = price;
-        this.quanity = amount;
+        this.quanity = quanity;
     }
 
 

@@ -5,18 +5,19 @@ package bankAccount;
  */
 public abstract class Account {
         String accountName;
-        double accountAmount;
+        double accountBalance;
 
-        public Account(String accountName, double accountAmount){
-            this.accountName = accountName;
-            this.accountAmount = accountAmount;
+
+
+        public double getAccountBalance(){
+
+            return this.accountBalance;
         }
 
-        public double getAccountAmount(){
-            return this.accountAmount;
+        public void setAccountAmount()
+        {
+            this.accountBalance = accountBalance;
         }
 
-        public void setAccountAmount(){
-            this.accountAmount = accountAmount;
-        }
+
 }

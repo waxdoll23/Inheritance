@@ -5,11 +5,13 @@ import java.util.ArrayList;
 /**
  * Created by jennifermcginty on 5/2/17.
  */
-public class InventoryManager extends Product {
+public class InventoryManager {
+
+
     ArrayList<Double> totalValue = new ArrayList();
 
 
-    public double calculateValueOfProduct(double quanity, double price) {
+    public double calculateValueOfProduct(int quanity, int price) {
         double valueOfSingleType = quanity * price;
         return valueOfSingleType;
     }

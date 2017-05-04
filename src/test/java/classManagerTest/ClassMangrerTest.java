@@ -1,3 +1,5 @@
+package classManagerTest;
+
 import classManager.InventoryManager;
 import org.junit.Assert;
 import org.junit.Test;
