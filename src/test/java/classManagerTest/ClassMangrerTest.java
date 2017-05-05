@@ -14,13 +14,18 @@ import static org.junit.Assert.assertEquals;
 public class ClassMangrerTest {
 
     @Test
-    public void addItemToCountTest(){
-        InventoryManager inventoryMangerTest = new InventoryManager();
+    public void valueOfProducts(){
+        InventoryManager inventory = new InventoryManager();
+        double expectedResult=20;
 
-        double expected = 3;
-        double actual = inventoryMangerTest.calculateValueOfProduct(1,3);
+        //: When
+        double actualResult= inventory.calculateValueOfProduct(4,5);
 
-        assertEquals("Testing if it adds one to the count", expected , actual, .05);
+        //: Then
+
+        Assert.assertEquals("should multiply price and quantity", expectedResult, actualResult, 0);
+
+
     }
 
     @Test
@@ -59,5 +64,6 @@ public class ClassMangrerTest {
 
         assertEquals("checking that the values in the array total together", expected, actual, 0);
     }
+
 
 }
