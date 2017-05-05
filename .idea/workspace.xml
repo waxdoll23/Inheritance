@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53d25a3a-d005-45d3-a513-11457f9d7b50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bankAccount/SavingsAccount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/petsPolymorphism/Cat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/petsPolymorphism/Dog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/petsPolymorphism/Fish.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/petsPolymorphism/Pet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/petsPolymorphism/PetFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/bankAccount/SavingsAccountTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/petsPolymorphism/CatTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/petsPolymorphism/DogTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/petsPolymorphism/FishTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/petsPolymorphism/PetFactoryTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/classManagerTest/ClassMangrerTest.java" afterPath="$PROJECT_DIR$/src/test/java/classManagerTest/ClassMangrerTest.java" />
-    </list>
+    <list default="true" id="53d25a3a-d005-45d3-a513-11457f9d7b50" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -221,8 +206,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-305" />
-    <option name="y" value="-1057" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="714" />
   </component>
@@ -880,7 +864,7 @@
       <workItem from="1493857701429" duration="314000" />
       <workItem from="1493897888747" duration="2625000" />
       <workItem from="1493915853671" duration="16278000" />
-      <workItem from="1494013173255" duration="1337000" />
+      <workItem from="1494013173255" duration="1929000" />
     </task>
     <servers />
   </component>
@@ -917,10 +901,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56515000" />
+    <option name="totallyTimeSpent" value="57107000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-305" y="-1057" width="1280" height="714" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="714" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
